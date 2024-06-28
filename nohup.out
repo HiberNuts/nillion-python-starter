@@ -1,0 +1,63 @@
+ℹ️ found bin NILLION_DEVNET     -> [/root/.nilup/sdks/latest/nillion-devnet]
+ℹ️ found bin NILLION_CLI        -> [/root/.nilup/sdks/latest/nillion]
+--------------------
+Updating your .env files with nillion-devnet environment info... This may take a minute.
+--------------------
+✔️cluster is running, bootnode is at /ip4/127.0.0.1/tcp/37939/p2p/12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+ℹ️ Cluster has been STARTED (see /tmp/tmp.A8EWWetzcq)
+ℹ️cluster id is 9e68173f-9c23-4acc-ba81-4f079b639964
+ℹ️using 256 bit prime
+ℹ️storing state in /tmp/.tmprJcibk (79.92Gbs available)
+⛓️starting blockchain node...
+✔️blockchain node running on endpoint http://localhost:61391
+🏃starting node 12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+⏳waiting until bootnode is up...
+🏃starting node 12D3KooWAiwGZUwSUaT2bYVxGS8jmfMrfsanZYkHwH3uL7WJPsFq
+🏃starting node 12D3KooWM3hsAswc7ZT6VpwQ1TCZU4GCYY55nLhcsxCcfjuixW57
+🎁wallet keys written to /tmp/.tmprJcibk/private-keys.txt
+📝payments configuration written to /tmp/.tmprJcibk/payments-config.yaml
+🥾bootnode config written to /tmp/.tmprJcibk/bootnode.yaml
+📝configuration written to /root/.config/nillion/config.yaml
+✔️cluster is running, bootnode is at /ip4/127.0.0.1/tcp/37939/p2p/12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+🔗websocket: /ip4/127.0.0.1/tcp/54936/ws/p2p/12D3KooWMvw1hEqm7EWSDEyqTb6pNetUVkepahKY6hixuAuMZfJS
+Generating node key
+Saving node key to /tmp/tmp.Yyc6RRZ4S9
+Generating node key
+Saving node key to /tmp/tmp.dqWggP0IFH
+Generating node key
+Saving node key to /tmp/tmp.jM4G3Gyzj5
+Generating node key
+Saving node key to /tmp/tmp.aCS7p7F6f1
+Generating node key
+Saving node key to /tmp/tmp.hOffvELXvc
+Generating user key
+Saving user key to /tmp/tmp.mZXIVnOiEZ
+Generating user key
+Saving user key to /tmp/tmp.M3HQOovgUt
+Generating user key
+Saving user key to /tmp/tmp.0dqmNJuGWO
+Generating user key
+Saving user key to /tmp/tmp.IHOjeiCylw
+Generating user key
+Saving user key to /tmp/tmp.4QxP0BYjQb
+🔑 Node key and user keys have been generated and added to .env
+Running at process pid: 1269
+-------------------------------------------------------
+                   7MM   7MM                           
+                    MM    MM                           
+              db    MM    MM    db                     
+                    MM    MM                           
+.7MMpMMMb.   7MM    MM    MM   7MM  ,pW-Wq. 7MMpMMMb.  
+  MM    MM    MM    MM    MM    MM 6W'    Wb MM    MM  
+  MM    MM    MM    MM    MM    MM 8M     M8 MM    MM  
+  MM    MM    MM    MM    MM    MM YA.   ,A9 MM    MM  
+.JMML  JMML..JMML..JMML..JMML..JMML. Ybmd9 .JMML  JMML.
+-------------------------------------------------------
+-------------------------------------------------------
+-----------🦆 CONNECTED TO NILLION-DEVNET 🦆-----------
+-------------------------------------------------------
+ℹ️ Your .env file configurations were updated with nillion-devnet connection variables: websocket, cluster id, keys, blockchain info
+💻 The Nillion devnet is still running behind the scenes; to spin down the Nillion devnet at any time, run 'killall nillion-devnet'
+--------------------
+💻 Your Nillion local cluster is still running - process pid: 1269
+ℹ️  Updated your .env file configuration variables: bootnode, cluster id, keys, blockchain info
